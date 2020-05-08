@@ -1,0 +1,15 @@
+node_modules/
+dist/
+git-m
+/.package/
+auto_router.js
+auto_config.json
+runtime_config.json
+
+.idea/
+.vscode/
+.DS_Store
+.happypack/
+.yo-rc.json
+dist.zip
+dist.rar

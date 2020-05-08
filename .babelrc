@@ -1,0 +1,20 @@
+{
+	"presets": [
+		"es2015",
+		"react",
+		"stage-0"
+	],
+	"plugins": [
+		"react-hot-loader/babel",
+		"transform-decorators-legacy", //支持装饰器语法（mobx-react）
+		"transform-runtime",
+		[
+			"import",
+			{
+				"libraryName": "antd",
+				"libraryDirectory": "es",
+				"style": true // or 'css' `style: true` 会加载 less 文件
+			}
+		]
+	]
+}
